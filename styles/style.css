@@ -1,36 +1,55 @@
-.header{
-   background-image: url('../images/donation4.jpg');
-   /* background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
-   max-height: 669px;
-   text-align: center;
-   padding: 174px 305px;
-   color: #FFFFFF;
-   background-repeat: no-repeat;
-   
-
+*{
+    margin: 2px;
 }
-.h{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+nav{
+    text-align: center;
+    /* background-image:url('../images/donation4.jpg') */
+    background-image: url('../images/Rectangle\ 246.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 669px;
+    margin: 2px 1px 7px 2px;
 }
-p{
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 28px;
-   width: 500px;
-   height: 56px;
-   text-align: left;
+.nav-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    width: 826px;
+    height: 158px;
+    padding-top: 174px;
+    padding-left: 307px;
+    color: #FFFFFF;
 }
-
+.nav-discription{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width: 691px;
+    height: 56px;
+    margin: 20px 375px ;
+    color: #FFFFFF;;
+}
 .primary-btn{
-   background: #FF5959;
-   border-radius: 5px;
-   border: 0;
-   width: 160px;
-   height: 56px;
-   flex-direction: row;
-   padding: 16px 12px;
-   color: #FFFFFF;;
-   font-size: 20px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px 12px;
+    gap: 8px;
+    width: 160px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    margin: 30px 640px ;
+    color: #FFFFFF;
+}
+/* main-title */
+.main-title{
+    margin: 126px 568px ;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    width: 304px;
+    height: 54px;
 }
